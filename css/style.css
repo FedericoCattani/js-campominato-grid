@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-wrapper{
+  height: 100vh;
+  background-color: rgb(167, 20, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* da fare sparire di default */
+.container{
+  height: 531px;
+  width: 600px;
+  background-color: cadetblue;
+}
+
+/* .container,.grid{ 
+  display: none; 
+}*/
+
+.square{
+  display: inline-block;
+  height: 50px;
+  width: 56px;
+  background-color: rgb(67, 250, 250);
+  border: 1px solid black;
+}
